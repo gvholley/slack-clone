@@ -1,0 +1,55 @@
+.group-sidebar {
+  background-color: #BD2020;
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
+
+
+h2.group.active {
+  background-color: #EB2A2A;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+h2.group {
+  font-size: 18px;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+}
+
+.person span {
+  opacity: .5;
+}
+
+
+h3.text {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.chat-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.conversations-sidebar {
+  background-color: #EB2A2A;
+  color: white;
+  padding: 16px;
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.channel-active {
+  color: white;
+}
+
+.channel-inactive {
+  opacity: 50%;
+}

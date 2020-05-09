@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Slack prototype</title>
+  <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+  <!-- Fontawesome CSS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- TODO: Slack copycat markup -->
+  <div class="d-flex slack-container">
+    <div class ="group-sidebar">
+      <h2 class="group active">LW</h2>
+      <h2 class="group">SL</h2>
+    </div>
+
+    <div class="conversations-sidebar">
+      <h1>Le Wagon</h1>
+      <div class="person">
+
+        <span>Joe</span>
+        <div class="online-badge">
+        </div>
+      </div>
+      <div class="chat-section">
+        <div class="chat-section-header">
+          <h3 class="text">Channels</h3>
+          <i class="fas fa-plus"></i>
+        </div>
+
+        <div class="channel">
+          <div class="channel-inactive">
+            <i class="fas fa-hashtag">   General</i>
+          </div>
+        </div>
+
+        <div class="channel">
+          <div class="channel-active">
+            <i class="fas fa-hashtag">   Design</i>
+          </div>
+        </div>
+
+        <div class="channel">
+          <div class="channel-inactive">
+            <i class="fas fa-lock">   Secret</i>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-section">
+        <div class="chat-section-header">
+          <h3 class="text">Direct Messages</h3>
+          <i class="fas fa-plus"></i>
+
+        </div>
+        <div class="person">
+          <span>Steve</span>
+          <div class="online-badge-inactive">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-container">
+      <div class="chat-header">
+        <h1><i class="fas fa-hashtag">   Design</i></h1>
+      </div>
+
+      <div class="chat-conversation">
+
+        <div class="message">
+          <div class="avatar">
+            <img src="https://via.placeholder.com/40">
+          </div>
+          <div class="messsage-content">
+            <p><strong>Jim</strong></p>
+            <p>Here is a random message so I can test the layout.</p>
+          </div>
+        </div>
+
+        <div class="message">
+          <div class="avatar">
+            <img src="https://via.placeholder.com/40">
+          </div>
+          <div class="messsage-content">
+            <p><strong>Kaori</strong></p>
+            <p>And another one!</p>
+          </div>
+        </div>
+
+        <div class="message">
+          <div class="avatar">
+            <img src="https://via.placeholder.com/40">
+          </div>
+          <div class="messsage-content">
+            <p><strong>Agnes</strong></p>
+            <p>Insert emoji here</p>
+          </div>
+        </div>
+
+        <div class="message">
+          <div class="avatar">
+            <img src="https://via.placeholder.com/40">
+          </div>
+          <div class="messsage-content">
+            <p><strong>Yoshihiro</strong></p>
+            <p>Stretching out the page</p>
+          </div>
+        </div>
+
+        <div class="message">
+         <div class="avatar">
+          <img src="https://via.placeholder.com/40">
+        </div>
+        <div class="messsage-content">
+          <p><strong>Samson</strong></p>
+          <p>And finally...</p>
+        </div>
+      </div>
+
+      <div class="chat-input">
+        <form action>
+          <input type="text" class="form-control" placeholder="Input message">
+        </form>
+      </div>
+
+
+      <!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) so that dynamic components work -->
+      <script src="main.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    </body>
+    </html>

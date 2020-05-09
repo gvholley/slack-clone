@@ -1,0 +1,11 @@
+.message {
+  display: flex;
+  align-items: flex-start;
+}
+.message-content {
+  flex-grow: 1;
+}
+
+.avatar {
+  padding-right: 10px;
+}
